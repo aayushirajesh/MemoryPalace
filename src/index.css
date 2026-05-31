@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-cinzel: "Cinzel", serif;
+  --font-cinzelDecorative: "Cinzel Decorative", serif;
+  --color-mainBg: #05010A;
+  --color-cardBg: #17141A;
+  --color-primaryText: #E7D3A8;
+  --color-borderClr: rgba(231, 211, 168, 0.35);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #05010A;
+  color: white;
+  font-family: "Cinzel", serif;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #17141A inset !important;
+  -webkit-text-fill-color: white !important;
+}
+
+
+
+/* Add text selection styling */
