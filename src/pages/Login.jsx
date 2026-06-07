@@ -36,8 +36,7 @@ export default function Login() {
 
   if (verificationSent) {
     return (
-      <div
-        className=" min-h-screen flex items-center justify-center px-6  text-white " >
+      <div className=" min-h-screen flex items-center justify-center px-6  text-white " >
         <div className=" w-full max-w-md backdrop-blur-xl  bg-white/5 border border-white/10 rounded-3xl p-8 text-center " >
           <h1 className="text-3xl font-semibold mb-4">
             Verify Your Email
@@ -58,8 +57,7 @@ export default function Login() {
   }
 
   return (
-    <AuthLayout>
-      <div className=" min-h-screen flex items-start justify-center px-6 pt-10 text-white relative overflow-hidden " >
+      <div className="flex items-start justify-center px-6 py-5 text-white relative overflow-hidden " >
         <div className=" w-105  bg-cardBg/90 border border-borderClr rounded-[28px] px-10 py-12 backdrop-blur-md shadow-2xl relative z-10 " >
       <h1 className=" font-cinzelDecorative  text-primaryText text-3xl text-center tracking-wide mb-10 " >
         Memory Palace
@@ -128,6 +126,5 @@ export default function Login() {
       </button>
     </div>
   </div>
-    </AuthLayout>
   );
 }
