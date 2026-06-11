@@ -32,7 +32,7 @@ export default function Home() {
           <ArrowRight className="w-3.5 h-3.5" />
         </Link>
         {!user && (
-          <Link to="/login" className="w-full sm:w-auto px-6 sm:px-8 py-3.5 border border-borderClr text-primaryText hover:bg-white/5 font-cinzel text-xs uppercase tracking-[0.25em] flex items-center gap-2 rounded-sm transition-all duration-500">
+          <Link to="/login" className="px-6 sm:px-8 py-3.5 border border-borderClr text-primaryText hover:bg-white/5 font-cinzel text-xs uppercase tracking-[0.25em] flex items-center gap-2 rounded-sm transition-all duration-500">
             Create Registry
             <Sparkles className="w-3.5 h-3.5" />
           </Link>

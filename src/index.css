@@ -35,6 +35,14 @@ input:-webkit-autofill:focus {
   -webkit-text-fill-color: white !important;
 }
 
-
+.parchment {
+  background: #faf6ea;
+  background-image:
+    radial-gradient(
+      rgba(139, 90, 0, 0.04) 1px,
+      transparent 1px
+    );
+  background-size: 12px 12px;
+}
 
 /* Add text selection styling */
